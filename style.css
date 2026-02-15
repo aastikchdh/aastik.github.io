@@ -1,0 +1,106 @@
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.golos-text {
+  font-family: "Golos Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.boldonse-regular{
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: #1E293B;
+    background-image: url("c58d078a-856c-4aed-9ff9-0bf536e245f2.jpg");
+    background-size: 100% 100%;
+}
+#main-heading{
+    text-align: center;
+    color: rgb(201, 201, 201);
+    font-family: "Press Start 2P";
+    margin: 100px;
+    font-size: 2.5rem;
+}
+#about-text{
+    font-family: "Press Start 2P";
+    margin: 100px;
+    color: rgb(201, 201, 201);
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+#intro{
+    padding: 10px;
+    font-family: "Golos Text";
+    font-size: 1.5rem;
+    margin: 100px;
+    margin-top: 20px;
+    color: rgb(201, 201, 201);
+}
+h2{
+    font-family: "Press Start 2P";
+    color: rgb(201, 201, 201);
+    font-size: 2rem;
+}
+.project-div{
+    text-align: center;
+    font-family: "Golos Text";
+}
+.project-flexbox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.project-flexbox > *{
+    width: 300px;
+    height: 350px;
+    background-color: #111827;
+    border-radius: 10px;
+}
+.project-flexbox > *:hover{
+    background-color: #0a0f1d;
+}
+.empty-project > p{
+    color: rgb(201, 201, 201);
+    font-size: 1.5rem;
+}
+hr{
+    width: 75%;
+}
+.project-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.project-logo > img{
+    height: 50px;
+    width: 50px;
+}
+.project > p{
+    font-size: larger;
+    margin: 20px;
+}
+footer
+{
+    margin-top: 30px;
+    height: 100px;
+    color: rgb(201, 201, 201);
+    font-family: "Press Start 2P";
+    font-size: 0.7rem;
+    background-color:#12192f;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.icons
+{
+
+    height: 35px;
+    width: 35px;
+}
