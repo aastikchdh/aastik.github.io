@@ -12,6 +12,7 @@ function fade(element){
     }, 100);
 }
 fade(heading1);
-setInterval(()=>{
+interval2 = setInterval(()=>{
     fade(heading2);
-},100)
+    clearInterval(interval2);
+},400)
