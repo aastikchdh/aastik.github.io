@@ -19,7 +19,8 @@ body{
     background-image: url("c58d078a-856c-4aed-9ff9-0bf536e245f2.jpg");
     background-size: 100% 100%;
 }
-#main-heading{
+#main-heading1,#main-heading2{
+    opacity: 0;
     text-align: center;
     color: rgb(201, 201, 201);
     font-family: "Press Start 2P";
